@@ -24,6 +24,9 @@ body{
 .font-white{
     color: white
 }
+.col-100{
+    width: 100%;
+}
 /* HEADER */
 header{
     background-color: #ff6900;
@@ -87,5 +90,13 @@ img{
 /* FOOTER */
 footer{
     background-color: #1a1a1a;
-    height: 100px;
+    padding: 30px 0;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.padding-y-10{
+    padding: 10px 0;
 }
