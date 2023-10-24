@@ -14,9 +14,6 @@ body{
 .row{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
 }
 .col-33{
     width: calc(100% / 3 - 20px);
@@ -30,11 +27,31 @@ body{
 /* HEADER */
 header{
     background-color: #ff6900;
-    height: 100px;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    max-width: 170px;
+    margin-left: 250px;
+    padding-bottom: 20px;
+}
+.col-20{
+    width: calc(100% / 5 );
+}
+.col-60{
+    width: calc(100% / 5 * 3);
 }
 /* MAIN */
 main{
-    padding: 50px 0;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+.row-products{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 img{
     width: 100%;
